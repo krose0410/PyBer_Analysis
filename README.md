@@ -2,7 +2,9 @@
 ## Overview:
 After completing an exploratory analysis for PyBer, a ride-sharing business, a deeper dive into reviewing the data by city type was requested by the CEO. The scope of work includes using Python, Pandas, and Matplotlb to create a summary DataFrame and a multi-line graph of the total weekly fares for each city type: Rural, Suburban, and Urban.
 ## Results:
-After merging two datasets and using the groupby() functions, the fare per ride and fare per driver averages were calculated resulting in the summary DataFrame by City.<img width="609" alt="Summary Fare" src="https://user-images.githubusercontent.com/109715441/195676887-4152f693-ea9c-4573-b937-ab6f284c459c.png">
+After merging two datasets and using the groupby() functions, the fare per ride and fare per driver averages were calculated resulting in the summary DataFrame by City.
+
+<img width="609" alt="Summary Fare" src="https://user-images.githubusercontent.com/109715441/195676887-4152f693-ea9c-4573-b937-ab6f284c459c.png">
 1. The Urban city type had more total drivers than total rides, which had a dramatic impact on the average fare per ride and average fare per driver. The Urban drivers had the lowest average fare per ride and earned significantly less than the Rural drivers.
 2. The Rural city type had the least number of total drivers giving way to having the highest average fare per driver even though the ratio of total rides to total drivers is equivalent to the Suburban city type.
 <img width="1027" alt="Total Fare by City Type" src="https://user-images.githubusercontent.com/109715441/195676412-7dbb60cd-814e-4515-abc5-e2ec259a5cd7.png">
